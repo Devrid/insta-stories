@@ -8,6 +8,8 @@
 <div id="instafeed"></div>
 <script type="text/javascript">
     var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
         clientId: 'gaming.evo'
     });
     feed.run();
